@@ -13,7 +13,7 @@ struct TheOneApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthorisationView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

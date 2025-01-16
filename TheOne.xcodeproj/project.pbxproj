@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC6F385E2D381A5300C40320 /* TheOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F385D2D381A5300C40320 /* TheOneApp.swift */; };
-		FC6F38602D381A5300C40320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F385F2D381A5300C40320 /* ContentView.swift */; };
+		FC6F38602D381A5300C40320 /* AuthorisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F385F2D381A5300C40320 /* AuthorisationView.swift */; };
 		FC6F38622D381A5400C40320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6F38612D381A5400C40320 /* Assets.xcassets */; };
 		FC6F38652D381A5400C40320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6F38642D381A5400C40320 /* Preview Assets.xcassets */; };
 		FC6F38672D381A5400C40320 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F38662D381A5400C40320 /* Persistence.swift */; };
@@ -16,6 +16,9 @@
 		FC6F38742D381A5400C40320 /* TheOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F38732D381A5400C40320 /* TheOneTests.swift */; };
 		FC6F387E2D381A5500C40320 /* TheOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F387D2D381A5500C40320 /* TheOneUITests.swift */; };
 		FC6F38802D381A5500C40320 /* TheOneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F387F2D381A5500C40320 /* TheOneUITestsLaunchTests.swift */; };
+		FCB4B5832D3968BA00FD310E /* DAColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4B5822D3968BA00FD310E /* DAColors.swift */; };
+		FCB4B5862D396EE800FD310E /* DASegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4B5852D396EE800FD310E /* DASegmentControl.swift */; };
+		FCB4B5882D3970B600FD310E /* DAFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4B5872D3970B600FD310E /* DAFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 /* Begin PBXFileReference section */
 		FC6F385A2D381A5300C40320 /* TheOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6F385D2D381A5300C40320 /* TheOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOneApp.swift; sourceTree = "<group>"; };
-		FC6F385F2D381A5300C40320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC6F385F2D381A5300C40320 /* AuthorisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationView.swift; sourceTree = "<group>"; };
 		FC6F38612D381A5400C40320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6F38642D381A5400C40320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC6F38662D381A5400C40320 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +51,9 @@
 		FC6F38792D381A5500C40320 /* TheOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6F387D2D381A5500C40320 /* TheOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOneUITests.swift; sourceTree = "<group>"; };
 		FC6F387F2D381A5500C40320 /* TheOneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCB4B5822D3968BA00FD310E /* DAColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DAColors.swift; path = ../../TheOne_/TheOne/DAColors.swift; sourceTree = "<group>"; };
+		FCB4B5852D396EE800FD310E /* DASegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DASegmentControl.swift; sourceTree = "<group>"; };
+		FCB4B5872D3970B600FD310E /* DAFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +104,15 @@
 		FC6F385C2D381A5300C40320 /* TheOne */ = {
 			isa = PBXGroup;
 			children = (
+				FCB4B5842D396E8A00FD310E /* UIComponents */,
 				FC6F385D2D381A5300C40320 /* TheOneApp.swift */,
-				FC6F385F2D381A5300C40320 /* ContentView.swift */,
+				FC6F385F2D381A5300C40320 /* AuthorisationView.swift */,
+				FCB4B5822D3968BA00FD310E /* DAColors.swift */,
 				FC6F38612D381A5400C40320 /* Assets.xcassets */,
 				FC6F38662D381A5400C40320 /* Persistence.swift */,
 				FC6F38682D381A5400C40320 /* TheOne.xcdatamodeld */,
 				FC6F38632D381A5400C40320 /* Preview Content */,
+				FCB4B5872D3970B600FD310E /* DAFont.swift */,
 			);
 			path = TheOne;
 			sourceTree = "<group>";
@@ -131,6 +140,14 @@
 				FC6F387F2D381A5500C40320 /* TheOneUITestsLaunchTests.swift */,
 			);
 			path = TheOneUITests;
+			sourceTree = "<group>";
+		};
+		FCB4B5842D396E8A00FD310E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FCB4B5852D396EE800FD310E /* DASegmentControl.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6F38672D381A5400C40320 /* Persistence.swift in Sources */,
-				FC6F38602D381A5300C40320 /* ContentView.swift in Sources */,
+				FC6F38602D381A5300C40320 /* AuthorisationView.swift in Sources */,
+				FCB4B5862D396EE800FD310E /* DASegmentControl.swift in Sources */,
+				FCB4B5832D3968BA00FD310E /* DAColors.swift in Sources */,
+				FCB4B5882D3970B600FD310E /* DAFont.swift in Sources */,
 				FC6F386A2D381A5400C40320 /* TheOne.xcdatamodeld in Sources */,
 				FC6F385E2D381A5300C40320 /* TheOneApp.swift in Sources */,
 			);
